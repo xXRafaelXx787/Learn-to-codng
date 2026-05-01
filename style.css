@@ -1,1 +1,34 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
+/* Container für beide Seiten */
+.container {
+    display: flex;
+}
+
+/* Linke Seite bleibt beim Scrollen sichtbar */
+.left {
+    position: sticky;
+    top: 0;
+
+    width: 30%;
+    height: 100vh;
+
+    background-color: #111;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Rechte Seite scrollt normal */
+.right {
+    width: 70%;
+    padding: 60px;
+}
