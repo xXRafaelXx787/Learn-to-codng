@@ -4,141 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>About Us - Digitify</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        html, body {
-            height: 100%;
-        }
-
-        /* GESAMTES LAYOUT */
-        .container {
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-        }
-
-        /* VIDEO OBEN */
-        .top {
-            flex: 1;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .top video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        /* TEXT UNTEN */
-        .bottom {
-            flex: 2;
-            padding: 60px;
-        }
-
-        h1 {
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-
-        /* OVERLAY TEXT AUF VIDEO */
-        .overlay {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-size: 40px;
-            font-weight: bold;
-        }
-
-        /* optional: dunkler Effekt fürs Video */
-        .top::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: rgba(0,0,0,0.35);
-        }
-
-        .overlay {
-            z-index: 2;
-        }
-    </style>
+    <title>Digitify - About Us</title>
 </head>
 
 <body>
 
-<div class="container">
-
-    
-      <nav class="navbar">
+<!-- NAVBAR -->
+<nav class="navbar">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="services.html">Services</a>
     <a href="projects.html">Projects</a>
     <a href="contact.html">Contact</a>
 </nav>
-        <div style="text-align: right;">
-            <img src="https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/images/panoramic/GettyImages-1355277961_542041_fucxet.jpg" width="400">
-        </div>
 
-        <h1>Our Company</h1>
+<!-- HERO -->
+<section class="top">
+    <img src="https://www.dgq.de/wp-content/uploads/2022/02/QM-und-Kuenstliche-Intelligenz_Fachbeitrag.jpg" alt="Digitify Hero">
+    <div class="overlay">Digitify</div>
+</section>
 
-        <p>
-    <div class="top">
-       <img src="https://www.dgq.de/wp-content/uploads/2022/02/QM-und-Kuenstliche-Intelligenz_Fachbeitrag.jpg" alt="Hero Bild">
-        <div class="overlay">Digitify</div>
+<!-- CONTENT -->
+<section class="bottom">
+
+    <h1>About Us</h1>
+
+    <p>
+        Wir sind Digitify — ein Team aus Designern, Entwicklern und Strategen, die sich darauf spezialisiert haben,
+        moderne und leistungsstarke Webseiten zu entwickeln. Unser Fokus liegt auf klaren Designs, schnellen Websites
+        und einer perfekten Nutzererfahrung.
+    </p>
+
+    <h2>Warum Digitify?</h2>
+
+    <p>
+        In einer digitalen Welt reicht es nicht mehr aus, nur „eine schöne Website“ zu haben.
+        Unternehmen brauchen digitale Lösungen, die funktionieren, verkaufen und Vertrauen aufbauen.
+    </p>
+
+    <p>
+        Deshalb entwickeln wir keine Standard-Templates, sondern individuelle Webseiten, die exakt auf deine Marke
+        und deine Zielgruppe zugeschnitten sind.
+    </p>
+
+    <p>
+        Unsere Arbeit kombiniert Design, Technologie und Strategie — damit aus Besuchern echte Kunden werden.
+    </p>
+
+    <div style="text-align: right; margin: 40px 0;">
+        <img src="https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/images/panoramic/GettyImages-1355277961_542041_fucxet.jpg" width="400">
     </div>
 
-    <!-- TEXT -->
-    <div class="bottom">
+    <h1>Our Company</h1>
 
-        <h1>About Us</h1>
+    <p>
+        Digitify wurde gegründet mit einer klaren Mission: Unternehmen in die digitale Zukunft zu bringen.
+    </p>
 
-        <p>
-        Wir sind ein leidenschaftliches Team aus kreativen Köpfen und Strategen, das sich darauf spezialisiert hat, moderne, performante und benutzerfreundliche Webseiten zu gestalten.
-        </p>
+    <p>
+        Wir glauben daran, dass Technologie nicht kompliziert sein muss. Sie soll Menschen helfen, wachsen und
+        erfolgreich sein.
+    </p>
 
-        <p><strong>Warum Digitify?</strong></p>
+    <p>
+        Von der ersten Idee bis zur fertigen Website begleiten wir unsere Kunden durch den gesamten digitalen Prozess:
+        Design, Entwicklung, Optimierung und Wachstum.
+    </p>
 
-        <p>
-        Unser Ziel ist es nicht nur, Oberflächen zu gestalten, sondern digitale Lösungen zu entwickeln, die wirklich funktionieren.
-        </p>
+    <p>
+        Unser Ziel ist es, digitale Produkte zu bauen, die nicht nur gut aussehen, sondern auch echte Ergebnisse liefern.
+    </p>
 
-        <p>
-        Individuelle Konzepte: Keine Standard-Templates, sondern Lösungen, die exakt zu deiner Marke passen.
-        </p>
-
-        <p>
-        User Experience (UX): Wir stellen den Nutzer in den Mittelpunkt.
-        </p>
-
-
-        <div style="text-align: right;">
-            <img src="https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/images/panoramic/GettyImages-1355277961_542041_fucxet.jpg" width="400">
-        </div>
-
-        <h1>Our Company</h1>
-
-        <p>
-        Wir gestalten Ihre digitale Evolution und helfen Unternehmen, ihre Zukunft aktiv zu formen.
-        </p>
-
-        <p>Wir gestalten Ihre digitale Evolution</p> <p>Bei Digitify sind wir davon überzeugt, dass die Zukunft nicht einfach passiert – man muss sie aktiv gestalten. In einer Zeit, in der sich Technologien in Lichtgeschwindigkeit weiterentwickeln, schlagen wir die Brücke zwischen Ihren ambitionierten Ideen und der digitalen Realität.</p> <p>Wer wir sind</p> <p>Digitify ist ein Team aus leidenschaftlichen Innovatoren, Strategen und Technik-Enthusiasten. Wir haben es uns zur Aufgabe gemacht, die Art und Weise, wie Unternehmen in der digitalen Landschaft agieren, grundlegend zu verbessern. Wir liefern nicht nur Werkzeuge; wir erschaffen maßgeschneiderte digitale Ökosysteme, die es Marken ermöglichen, zu skalieren und in ihren Branchen die Führung zu übernehmen.</p> <p>Unsere Mission</p> <p>Unsere Mission ist simpel: Technologie zu entmystifizieren und digitale Exzellenz zugänglich zu machen. Wir beseitigen die Komplexität der digitalen Transformation, damit Sie sich auf Ihr Kerngeschäft konzentrieren können, während wir den technologischen Puls Ihres Unternehmens steuern.</p> <p>Unsere Vision</p> <p>Wir wollen der globale Katalysator für digitales Wachstum sein und Unternehmen jeder Größe dabei helfen, den Sprung vom traditionellen Modell zum zukunftssicheren digitalen Powerhouse zu meistern.</p>
-
-    </div>
-
-</div>
+</section>
 
 </body>
 </html>
