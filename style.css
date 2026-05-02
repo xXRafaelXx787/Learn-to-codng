@@ -3,51 +3,61 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* ===== FULLSCREEN HERO ===== */
-.top {
-    position: relative;
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
 }
 
-/* BILD füllt den Bildschirm */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO */
+.top {
+    position: relative;
+    height: 100vh;
+    margin-top: 60px;
+}
+
 .top img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-/* dunkler Overlay Effekt */
 .top::after {
     content: "";
     position: absolute;
     inset: 0;
     background: rgba(0,0,0,0.4);
-    z-index: 1;
 }
 
-/* Text auf Bild */
 .overlay {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
     font-size: 60px;
+    color: white;
     font-weight: bold;
-    z-index: 2;
 }
 
-/* ===== TEXT BEREICH (unten scrollen) ===== */
+/* CONTENT */
 .bottom {
-    padding: 80px;
     max-width: 1100px;
-    margin: 0 auto;
-}
-
-h1 {
-    margin-bottom: 20px;
+    margin: auto;
+    padding: 80px;
 }
 
 p {
@@ -55,7 +65,6 @@ p {
     line-height: 1.6;
 }
 
-/* smooth scroll optional */
-html {
-    scroll-behavior: smooth;
+h2 {
+    margin-top: 40px;
 }
