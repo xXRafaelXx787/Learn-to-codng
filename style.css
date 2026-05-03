@@ -53,6 +53,14 @@ body {
     font-weight: bold;
 }
 
+.center-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* CONTENT */
 .bottom {
     max-width: 1100px;
